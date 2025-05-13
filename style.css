@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+  position: fixed;         /* Fissa il menu in alto */
+  top: 0;
+  left: 0;                 /* Aggiunto per assicurarsi che parta da sinistra */
+  width: 100vw;            /* 100% della larghezza della finestra (viewport) */
+  background-color: #333;
+  z-index: 1000;
+}
+
+
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px 0;
+    color: #000000;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: left;
+    color: #000000;
+}
